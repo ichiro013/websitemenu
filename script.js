@@ -1,5 +1,5 @@
 /**
- * DAPUR RASA NUSANTARA - JAVASCRIPT LOGIC
+ * PASTI NAGIH - JAVASCRIPT LOGIC
  * Interaktivitas Navigasi, Filter Menu, Modal Pesanan, & Formulir Reservasi
  */
 
@@ -205,7 +205,7 @@ function sendOrderViaWhatsApp() {
                   `- Total: *${formatRupiah(total)}*\n\n` +
                   `Mohon informasikan proses pemesanan & pembayarannya. Terima kasih!`;
 
-  const waUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(message)}`;
+  const waUrl = `https://wa.me/6283898130761?text=${encodeURIComponent(message)}`;
   
   closeOrderModal();
   showToast(`Pesanan ${currentProduct.name} sedang dialihkan ke WhatsApp...`);
