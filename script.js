@@ -199,7 +199,7 @@ function changeModalQty(change) {
 
 function sendOrderViaWhatsApp() {
   const total = currentProduct.price * currentProduct.qty;
-  const message = `Halo Dapur Rasa Nusantara, saya ingin memesan:\n` +
+  const message = `Halo Pasti Nagih, saya ingin memesan:\n` +
                   `- Menu: *${currentProduct.name}*\n` +
                   `- Jumlah: *${currentProduct.qty} porsi*\n` +
                   `- Total: *${formatRupiah(total)}*\n\n` +
